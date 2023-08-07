@@ -7,7 +7,7 @@ private long scontact;
 private float sfees;
 private int sdob;
 private String bloodgroup;
-private String email;
+
 public String getSname() {
 	return sname;
 }
@@ -44,11 +44,6 @@ public String getBloodgroup() {
 public void setBloodgroup(String bloodgroup) {
 	this.bloodgroup = bloodgroup;
 }
-public String getEmail() {
-	return email;
-}
-public void setEmail(String email) {
-	this.email = email;
-}
+
 
 }
